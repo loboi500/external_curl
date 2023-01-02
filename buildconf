@@ -1,4 +1,3 @@
-#!/bin/sh
-
-echo "*** Do not use buildconf. Instead, just use: autoreconf -fi" >&2
-exec ${AUTORECONF:-autoreconf} -fi "${@}"
+version https://git-lfs.github.com/spec/v1
+oid sha256:2365d4c901b5478de93ca392dec91806481c1042c34bfe0fe05c55c6ead8615b
+size 124

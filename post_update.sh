@@ -1,10 +1,3 @@
-#!/bin/bash
-
-# $1 Path to the new version.
-# $2 Path to the old version.
-
-rm $1/packages/Android/Android.mk
-cp -a -n $2/androidconfigure $1/
-cp -a -n $2/local-configure.patch $1/
-
-echo "Please run androidconfigure to update curl_config.h."
+version https://git-lfs.github.com/spec/v1
+oid sha256:00856c2293d58e26ac8c1cbfe6f2de94f2e67f1d45390e13b2086e920fec3482
+size 240
